@@ -26,7 +26,7 @@ function getRatings() {
 
     //   Set width of stars-inner to percentage
     document.querySelector(
-      `.${rating}`.stars - inner
+      `.${rating} .stars-inner`
     ).style.width = starPercentageRounded;
   }
 }
